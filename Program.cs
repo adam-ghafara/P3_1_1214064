@@ -14,15 +14,15 @@ namespace P3_1_1214064
             int N;
             Console.Write("INPUT: N -> ");
             N = int.Parse(Console.ReadLine());
-            Console.WriteLine($"ANAK AYAM TURUN {N}");
             if (N > 10)
             {
-                Console.WriteLine("Hanya dapat masukkan Input hingga 10...");
+                Console.WriteLine("Hanya dapat masukkan Input hingga 10");
                 Console.Read();
 
             }
             else
             {
+                Console.WriteLine($"ANAK AYAM TURUN {N}");
                 for (int n = N; n >= 1; n--)
                 {
                     if (n == 1)
